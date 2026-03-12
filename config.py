@@ -10,7 +10,7 @@ BOT_TEXT = os.getenv("BOT_TEXT", "GAJJU BHAI KA EXTRACTOR")
 
 OWNER_ID = int(os.getenv("OWNER_ID"))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
-CHANNEL_ID = int(os.getenv("CHANNEL_ID2"))
+CHANNEL_ID = int(os.getenv("CHANNEL_ID2", "0"))
 
 MONGO_URL = os.getenv("MONGO_URL")
 
